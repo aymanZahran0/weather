@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(30,32,43);
+}
+.logoImg{
+    width: 30%;
+}
+.container a{
+    color: white ;
+}
+.bgc{
+    background-color: rgb(30,32,43);
+    padding: 50px;
+}
+.nav-link:hover{
+    border-radius: 10px;
+    border: 1px solid rgb(0,154,205);
+    color: rgb(0,154,205);
+    padding: 3px ;
+    margin: auto;
+}
+.bgImg {
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+.location{
+    position: relative;
+}
+#inputSearch{
+    background-color: #1e202b;
+    border-radius: 30px;
+    width: 100%;
+    padding: 15px;
+    color: white;
+}
+#buttonFind{
+    position: absolute;
+    right: 10px;
+    bottom:7px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(0,154,205);
+    color: white;
+
+}
+
+/* ___________________start expectation_____________ */
+.expectation{
+    width: 33%;
+    background-color: rgb(50,53,68);
+    color: white;
+}
+.header-today{
+    background-color: rgb(45,48,61);
+}
+h6{
+    font-size: 30px;
+}
+.size{
+font-size: 60px;
+}
+.imgSize{
+    width:30%;
+}
+.expectation2{
+    background-color: rgb(38,41,54);
+}
+.day2{
+    background-color: rgb(34,37,48);
+}
+.section1{
+    width: 78%;
+    margin: auto;
+    margin-top: -150px;
+}
+.bodys{
+    text-align: center;
+    margin-top: 50px;
+}
+.descriptionWeather{
+    color: rgb(0,154,205);
+}
+.endExpectations{
+    display:flex;
+}
+.icons{
+    margin-left: 50px;
+    color: gray;
+} 
+.date{
+    text-align: center;
+}
+/* ________________links_____________________ */
+
+.section2{
+    position: relative;
+    background-color: rgb(38,41,54);
+}
+#search2{
+    background-color: #1e202b;
+    border-radius: 30px;
+    width: 100%;
+    padding: 15px;
+    color: white;
+}
+#subscribe{
+    position: absolute;
+    right:5px;
+    bottom:7px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(0,154,205);
+    color: white;
+}
+.links i{
+    color: rgb(0,154,205);
+    background-color: #1e202b;
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+}
+.links{
+    text-align: center;
+}
+.end p{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.links i:hover{
+    color: white;
+    background-color: rgb(0,154,205);
+}
+.spanOs{
+    position: relative;
+    top: -30px;
+    font-size: 30px;
+}
+.spanOs2 , .spanOs3{
+    position: relative;
+    top: -10px;
+    font-size: 15px;
+
+}
