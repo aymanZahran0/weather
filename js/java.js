@@ -5,7 +5,7 @@ allItems = []
 
 if(inputSearch.value == ''){
   async function getWeather(){
-    var apiResponse = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=3109e2b8b95e470d8e8171700221310&q=cairo&days=3`)
+    var apiResponse = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=0a25e0073c4a42538ea212325231308&q=cairo&days=3`)
     var finalResult = await apiResponse.json();
     allItems=finalResult ;
     displayWeather()
@@ -16,14 +16,12 @@ if(inputSearch.value == ''){
 
 inputSearch.addEventListener('keyup' ,function(){
     async function getWeather(){
-      var apiResponse = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=3109e2b8b95e470d8e8171700221310&q=${inputSearch.value}&days=3`)
+      var apiResponse = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=0a25e0073c4a42538ea212325231308&q=${inputSearch.value}&days=3`)
       var finalResult = await apiResponse.json();
       allItems=finalResult ;
       displayWeather()
    }
    getWeather();
-  
- 
 });
 
 
@@ -81,6 +79,6 @@ function displayWeather(){
 
 
  // _______________________<<test..مهم لل>>_____________________
-   console.log(allItems.forecast.forecastday[1].day.condition.icon);
+   console.log(allItems.current.temp_c);
   //_____________________________________________________________
 }
